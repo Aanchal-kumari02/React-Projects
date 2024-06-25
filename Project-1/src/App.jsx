@@ -1,13 +1,13 @@
-import './App.css'
+
+import Hero from './components/hero.jsx'
+import Navigation from './components/navigation.jsx'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, facere!</h1>
-      </div>
-     
+     <Navigation></Navigation>
+     <Hero></Hero>
     </>
   )
 }
